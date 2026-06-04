@@ -93,5 +93,77 @@ hamburger.addEventListener("click", () => {
 });
 </script>
 
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+        <div class="contact-info">
+
+            <h2>Let's Collaborate</h2>
+
+            <div class="contact-line"></div>
+
+            <p>
+                I'm always open to connecting with like-minded professionals
+                and exploring opportunities to create value together.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="cv.pdf" class="btn">
+                    Download CV
+                </a>
+
+                <a href="#" class="social">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" class="social">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="contact-form">
+
+            <form>
+
+                <div class="form-group">
+                    <label>Your name</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Your email</label>
+                    <input type="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Your message (optional)</label>
+                    <textarea rows="7"></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
 </body>
 </html>
