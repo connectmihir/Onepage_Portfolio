@@ -14,11 +14,24 @@
 <body>
 
 <header class="hero">
+<nav class="navbar">
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">Nishtha Jha</div>
+    <div class="logo">Nishtha Jha</div>
 
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="cv.pdf" class="btn">Get my CV</a>
+
+    <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="mobile-menu" id="mobileMenu">
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -27,8 +40,9 @@
         </ul>
 
         <a href="cv.pdf" class="btn">Get my CV</a>
-    </nav>
+    </div>
 
+</nav>
     <!-- Hero Content -->
     <div class="hero-content">
 
@@ -69,6 +83,15 @@
     </div>
 
 </header>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+});
+</script>
 
 </body>
 </html>
