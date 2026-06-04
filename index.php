@@ -77,7 +77,7 @@
         </div>
 
         <div class="hero-image">
-            <img src="images/hero_image.png" alt="Nishtha Jha">
+            <img src="/assets/images/hero_image.png" alt="Nishtha Jha">
         </div>
 
     </div>
