@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#020733;
+    color:#fff;
+}
+
+.hero{
+    min-height:100vh;
+    padding:30px 8%;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:2.2rem;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#635bff;
+}
+
+.btn{
+    display:inline-block;
+    background:#635bff;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:4px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#7b74ff;
+}
+
+/* Hero Content */
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:100px;
+}
+
+.hero-text{
+    max-width:650px;
+}
+
+.subtitle{
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.line{
+    width:180px;
+    height:4px;
+    background:#635bff;
+    margin:25px 0 40px;
+}
+
+.hero-text h1{
+    font-size:5rem;
+    font-weight:800;
+    margin-bottom:25px;
+}
+
+.hero-text p{
+    font-size:1.2rem;
+    line-height:1.8;
+    max-width:650px;
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.social{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#635bff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-decoration:none;
+    font-size:1.2rem;
+    transition:.3s;
+}
+
+.social:hover{
+    transform:translateY(-5px);
+}
+
+.hero-image img{
+    width:100%;
+    max-width:100%;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .hero-content{
+        flex-direction:column;
+        text-align:center;
+        gap:50px;
+    }
+
+    .line{
+        margin:25px auto 40px;
+    }
+
+    .hero-text h1{
+        font-size:4rem;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+}
