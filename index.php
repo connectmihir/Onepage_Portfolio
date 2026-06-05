@@ -131,7 +131,7 @@ hamburger.addEventListener("click", () => {
         <!-- Right Side -->
         <div class="contact-form">
 
-            <form>
+            <form action="contact_process.php" method="POST">
 
                 <div class="form-group">
                     <label>Your name</label>

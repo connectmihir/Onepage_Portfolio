@@ -5,7 +5,7 @@ $user = "root";
 $password = "";
 $database = "onepage_portfolio";
 
-$conn = mysqli_connect(
+$conn = mysqli_connect(//used to create a connection to a MySQL database.
     $host,
     $user,
     $password,
@@ -13,6 +13,6 @@ $conn = mysqli_connect(
 );
 
 if(!$conn){
-    die("Connection failed");
+    die("Connection failed");//immediately stops the execution of the script and optionally displays a message.
 }
 ?>
