@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +78,7 @@
         </div>
 
         <div class="hero-image">
-            <img src="/assets/images/hero_image.png" alt="Nishtha Jha">
+            <img src="/PROJECT_PRACTICE/Onepage_Portfolio/assets/images/hero_image.png" alt="Nishtha Jha">
         </div>
 
     </div>
@@ -92,6 +93,59 @@ hamburger.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
 });
 </script>
+
+
+
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <!-- Left Side -->
+        <div class="stats-content">
+
+            <h2>Results Don't Lie.</h2>
+
+            <p>
+                Consistent performance and measurable impact define my journey in finance.
+                From processing 100+ invoices daily to ensuring 100% GST compliance and
+                reducing turnaround times through automation—every result reflects
+                dedication, accuracy, and growth. In finance, results speak louder than
+                promises—and mine tell a story of reliability and efficiency.
+            </p>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3>100+</h3>
+                <p>Processed invoices and payments daily</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>20+</h3>
+                <p>Experience in AP & AR Management</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>100%</h3>
+                <p>Ensured GST compliance for all transactions during my tenure</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>1K+</h3>
+                <p>Over 1,000 invoices and payments processed efficiently across industries</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 
 
 <section class="contact-section" id="contact">
@@ -135,22 +189,22 @@ hamburger.addEventListener("click", () => {
 
                 <div class="form-group">
                     <label>Your name</label>
-                    <input type="text">
+                    <input type="text" name="name">
                 </div>
 
                 <div class="form-group">
                     <label>Your email</label>
-                    <input type="email">
+                    <input type="email" name="email">
                 </div>
 
                 <div class="form-group">
                     <label>Subject</label>
-                    <input type="text">
+                    <input type="text" name="subject">
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" >
                     <label>Your message (optional)</label>
-                    <textarea rows="7"></textarea>
+                    <textarea rows="7" name="message"></textarea>
                 </div>
 
                 <button type="submit" class="btn">

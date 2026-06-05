@@ -17,14 +17,6 @@ VALUES
 
 $result= mysqli_query($conn,$sql);
 
-if(!$result){
-    echo"Error in database connection{$conn->error}";
-}
-    
-    else{
-    echo"Connection succesfull"
-}
 
-header("Location:index.php?success=1");
-exit;
+
 ?>
