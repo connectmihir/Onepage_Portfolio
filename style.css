@@ -19,8 +19,8 @@ body{
 ==================== */
 
 .hero{
-    min-height:100vh;
-    padding:30px 8%;
+    min-height:auto;
+    padding:30px 8% 80px;
 }
 
 /* ====================
